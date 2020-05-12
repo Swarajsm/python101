@@ -4,15 +4,14 @@ Author: Maria Malave 4/22/2020
 
 """
 
-#Calculate the are of a triangle
+#Calculate the area of a triangle
 
-#Definte the lenght of the base
-base_triangle = 5
+#Define the lenght of the base
+base_triangle = float(input("Enter the base of triangle   \t")
+#Defint the height of the base
+height_triangle = float(input("Enter the height of triangle   \t")
 
-#Definte the height of the base
-height_triangle = 3
-
-#Calculate the are of a triangle
+#Calculate the area of a triangle
 area_triangle = (base_triangle*height_triangle)/2
 
 #print the area
